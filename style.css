@@ -1,3 +1,13 @@
-html{
+*, *:before, *:after {
     box-sizing: border-box;
+    
+}
+
+html{
+    background: radial-gradient(121.83% 316.63% at 89.08% 58.48%, #59B663 0%, #0C4970 100%) no-repeat;
+    background-size: cover;
+}
+
+body{
+    background: transparent;
 }
