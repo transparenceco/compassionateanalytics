@@ -41,6 +41,7 @@ h1,
 .h6,
 button {
   font-family: 'BentonSansCond-Bold';
+  font-weight: bold;
 }
 
 hr {
