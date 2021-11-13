@@ -6,19 +6,21 @@ html {
 }
 
 html {
-  background: radial-gradient(
-      121.83% 316.63% at 89.08% 58.48%,
-      #59b663 0%,
-      #0c4970 100%
-    )
+
+}
+
+body {
+  background: radial-gradient(50.78% 71.83% at 24.84% 98.37%, #59B663 0%, #0C4970 100%);
     no-repeat;
   background-size: cover;
 }
 
-body {
-  background: transparent;
-  color: white;
-}
+
+
+ h1,h4,p,a{
+   color:white;
+ }
+
 
 .compassion-text {
   height: 100%;
