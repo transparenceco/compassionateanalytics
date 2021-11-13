@@ -5,23 +5,18 @@ html {
   height: 100%;
 }
 
-html {
-
-}
-
 body {
-  background: radial-gradient(50.78% 71.83% at 24.84% 98.37%, #59B663 0%, #0C4970 100%);
-    no-repeat;
+  background: radial-gradient(50.78% 71.83% at 24.84% 98.37%, #59B663 0%, #0C4970 100%) no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow:inherit;
 }
 
 
 
- h1,h4,p,a{
+ h1,h5,p,a{
    color:white;
  }
 
 
-.compassion-text {
-  height: 100%;
-}
