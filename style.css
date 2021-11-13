@@ -20,11 +20,11 @@ body {
 
 
 
- h1,h6,p,a{
+ h1,.h6,p,a{
    color:white;
  }
 
- h1, .h6{
+ h1, .h6,button{
    font-family: 'BentonSansCond-Bold';
  }
 
