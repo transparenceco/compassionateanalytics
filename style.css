@@ -1,9 +1,9 @@
 
 
 @font-face {
-  font-family: "BentonSansCond-Bold";
+  font-family: 'BentonSansCond-Bold';
   src: url("/assets/fonts/BentonSansCond-Bold.eot");
-  src: local("Benton Sans Cond Bold"), local("Benton-Sans-Cond-Bold"),
+  src: local('Benton Sans Cond Bold'), local('Benton-Sans-Cond-Bold'),
     url("/assets/fonts/BentonSansCond-Bold.otf") format("opentype");
   font-weight: bold;
 }
@@ -38,7 +38,7 @@ a {
 h1,
 .h6,
 button {
-  font-family: "BentonSansCond-Bold";
+  font-family: 'BentonSansCond-Bold';
 }
 
 hr {
