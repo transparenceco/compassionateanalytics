@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'BentonSansCond-Bold';
+  src: url("/assets/fonts/BentonSansCond-Bold.otf") format("opentype");
+}
+
 html {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -15,8 +20,20 @@ body {
 
 
 
- h1,h5,p,a{
+ h1,h6,p,a{
    color:white;
  }
 
+ h1, .h6{
+   font-family: 'BentonSansCond-Bold';
+ }
 
+hr{
+  color: white;
+  opacity: 1;
+}
+
+.btn-primary{
+  background-color: #59B663;
+  border: none;
+}
