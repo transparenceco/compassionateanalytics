@@ -1,6 +1,11 @@
+
+
 @font-face {
-  font-family: 'BentonSansCond-Bold';
-  src: url("/assets/fonts/BentonSansCond-Bold.otf") format("opentype");
+  font-family: "BentonSansCond-Bold";
+  src: url("/assets/fonts/BentonSansCond-Bold.eot");
+  src: local("Benton Sans Cond Bold"), local("Benton-Sans-Cond-Bold"),
+    url("/assets/fonts/BentonSansCond-Bold.otf") format("opentype");
+  font-weight: bold;
 }
 
 html {
@@ -11,29 +16,37 @@ html {
 }
 
 body {
-  background: radial-gradient(50.78% 71.83% at 24.84% 98.37%, #59B663 0%, #0C4970 100%) no-repeat;
+  background: radial-gradient(
+      50.78% 71.83% at 24.84% 98.37%,
+      #59b663 0%,
+      #0c4970 100%
+    )
+    no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
-  overflow:inherit;
+  overflow: inherit;
 }
 
+h1,
+.h6,
+p,
+a {
+  color: white;
+}
 
+h1,
+.h6,
+button {
+  font-family: "BentonSansCond-Bold";
+}
 
- h1,.h6,p,a{
-   color:white;
- }
-
- h1, .h6,button{
-   font-family: 'BentonSansCond-Bold';
- }
-
-hr{
+hr {
   color: white;
   opacity: 1;
 }
 
-.btn-primary{
-  background-color: #59B663;
+.btn-primary {
+  background-color: #59b663;
   border: none;
 }
