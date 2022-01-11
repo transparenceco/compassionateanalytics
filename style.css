@@ -23,6 +23,16 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+
+}
+
+.container{
+  position: relative;
 }
 
 
