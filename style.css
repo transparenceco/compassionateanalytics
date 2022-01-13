@@ -46,6 +46,7 @@ a {
 
 h1,
 .h6,
+.role-rtn,
 button {
   font-family: 'BentonSansCond-Bold';
   font-weight: bold;
@@ -57,7 +58,7 @@ hr {
 }
 
 .btn-primary {
-  background-color: #59b663;
+  background: linear-gradient(90deg, #EF3F3A 0%, #FCB841 100%);
   border: none;
 }
 
