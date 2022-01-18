@@ -84,8 +84,13 @@ hr {
 }
 
 
+.compassion-head{
+  font-size: 95px;
+}
 
-
+.compassion-mob-head{
+  font-size: 45px;
+}
 
 /* @font-face {
   font-family: 'BentonSansCond-Bold';
