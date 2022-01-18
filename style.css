@@ -68,6 +68,23 @@ hr {
   border: none;
 }
 
+#google_translate_element select{
+  width:10rem;
+  height: 2rem;
+  padding-left: 1rem;
+ border-radius: 19px;
+ border-top: 1px solid #ef3f3a;
+ border-right: 1px solid #EF3F3A;
+ border-bottom: 1px solid #FCB841;
+ border-left: 1px solid #FCB841;
+ font-family: 'BentonSansCond-Bold';
+  font-weight: bold;
+  background: transparent;
+  color: white;
+}
+
+
+
 
 
 /* @font-face {
