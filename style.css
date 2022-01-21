@@ -32,7 +32,7 @@ body {
   top: 220.48px;
 }
 
-.container{
+.pr{
   position: relative;
 }
 
@@ -92,3 +92,7 @@ hr {
   font-size: 45px;
 }
 
+.plantchek-body{
+  background: radial-gradient(78.81% 206.14% at 9.23% 126.99%, #59B663 0%, #0C4970 100%);
+  border-radius: 20px;
+}
